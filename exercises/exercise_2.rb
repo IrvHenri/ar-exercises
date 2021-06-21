@@ -5,3 +5,5 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+@store1 = Store.update(1, :annual_revenue => 400000)
+@store2 = Store.find_by(id: 2)
